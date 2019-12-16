@@ -1,0 +1,19 @@
+{
+  "name": "phone-book-server",
+  "version": "1.0.0",
+  "description": "phone book",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha tests/contacts.test.js"
+  },
+  "author": "Malfor Saja",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2"
+  }
+}

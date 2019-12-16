@@ -1,0 +1,151 @@
+{
+  "id": "cd39bef2-7975-4031-bda8-b3efa74e7825",
+  "name": "Phone book",
+  "description": "",
+  "auth": null,
+  "events": null,
+  "variables": [],
+  "order": [
+    "f2e39901-48a0-4a48-959f-b098243504f1",
+    "31adf57e-e534-4a7b-8ad0-d295a2c85029",
+    "dc9c7368-4dc7-4a78-8824-a5af7c9fb7f2",
+    "014c1c8b-fad0-4119-984c-1fd6117f011b",
+    "e1f7d785-346c-4389-bb93-73b323c80d64"
+  ],
+  "folders_order": [],
+  "protocolProfileBehavior": [],
+  "folders": [],
+  "requests": [
+    {
+      "id": "014c1c8b-fad0-4119-984c-1fd6117f011b",
+      "name": "Add contact",
+      "url": "http:\/\/localhost:3001\/api\/contacts",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "name": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": [],
+      "folder": null,
+      "currentHelper": null,
+      "helperAttributes": null,
+      "collectionId": "cd39bef2-7975-4031-bda8-b3efa74e7825",
+      "rawModeData": "{\n    \"firstname\": \"Fori\",\n    \"lastname\": \"contact\",\n    \"numbers\": [\n        {\n            \"type\": \"Work\",\n            \"number\": \"67854639\"\n        }\n    ]\n}",
+      "headers": "Content-Type: application\/json\n",
+      "pathVariables": []
+    },
+    {
+      "id": "31adf57e-e534-4a7b-8ad0-d295a2c85029",
+      "name": "Get 1 contact",
+      "url": "http:\/\/localhost:3001\/api\/contacts\/1",
+      "description": "",
+      "data": null,
+      "dataOptions": null,
+      "dataMode": null,
+      "headerData": [],
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": [],
+      "folder": null,
+      "currentHelper": null,
+      "helperAttributes": null,
+      "collectionId": "cd39bef2-7975-4031-bda8-b3efa74e7825",
+      "headers": "",
+      "pathVariables": []
+    },
+    {
+      "id": "dc9c7368-4dc7-4a78-8824-a5af7c9fb7f2",
+      "name": "Delete contact",
+      "url": "http:\/\/localhost:3001\/api\/contacts\/9",
+      "description": "",
+      "data": null,
+      "dataOptions": null,
+      "dataMode": null,
+      "headerData": [],
+      "method": "DELETE",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": [],
+      "folder": null,
+      "currentHelper": null,
+      "helperAttributes": null,
+      "collectionId": "cd39bef2-7975-4031-bda8-b3efa74e7825",
+      "headers": "",
+      "pathVariables": []
+    },
+    {
+      "id": "e1f7d785-346c-4389-bb93-73b323c80d64",
+      "name": "Update contact",
+      "url": "http:\/\/localhost:3001\/api\/contacts\/9",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": [
+        {
+          "description": "",
+          "key": "Content-Type",
+          "name": "Content-Type",
+          "type": "text",
+          "value": "application\/json"
+        }
+      ],
+      "method": "PUT",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": [],
+      "folder": null,
+      "currentHelper": null,
+      "helperAttributes": null,
+      "collectionId": "cd39bef2-7975-4031-bda8-b3efa74e7825",
+      "rawModeData": "{\n    \"firstname\": \"MAlfor\",\n    \"lastname\": \"Saja\",\n    \"numbers\": [\n        {\n            \"type\": \"Work\",\n            \"number\": \"67854639\"\n        }\n    ]\n}",
+      "headers": "Content-Type: application\/json\n",
+      "pathVariables": []
+    },
+    {
+      "id": "f2e39901-48a0-4a48-959f-b098243504f1",
+      "name": "Get contacts",
+      "url": "http:\/\/localhost:3001\/api\/contacts",
+      "description": "",
+      "data": null,
+      "dataOptions": null,
+      "dataMode": null,
+      "headerData": [],
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": [],
+      "folder": null,
+      "currentHelper": null,
+      "helperAttributes": null,
+      "collectionId": "cd39bef2-7975-4031-bda8-b3efa74e7825",
+      "headers": "",
+      "pathVariables": []
+    }
+  ]
+}
